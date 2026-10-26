@@ -1,350 +1,277 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Tarun Sharma | BCA Student & AI Learner</title>
-  <meta name="description"
-    content="Tarun Sharma'portfolio showcasing BCA education, technical skills, AI certifications and projects.">
-
-  <!-- Correct CSS file name -->
-  <link rel="stylesheet" href="style.css">
-
-  <!-- JavaScript -->
-  <script src="script.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarun Sharma | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
-
 <body>
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">Portfolio<span>.</span></a>
 
-  <!-- Navigation -->
-  <header class="header">
-    <nav class="navbar container">
-      <a href="#home" class="logo">Portfolio<span>.</span></a>
+            <button class="menu-toggle" id="menuToggle"
+                aria-label="Open menu"
+                aria-expanded="false"
+                aria-controls="navLinks">
+                ☰
+            </button>
 
-      <button class="menu-toggle" id="menuToggle"
-        aria-label="Toggle navigation"
-        aria-expanded="false"
-        aria-controls="navLinks">
-        ☰
-      </button>
-
-      <div class="nav-links" id="navLinks">
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#education">Education</a>
-        <a href="#certifications">Certifications</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact" class="nav-contact">Contact</a>
-      </div>
-    </nav>
-  </header>
-
-  <main>
-
-    <!-- Hero Section -->
-    <section class="hero container" id="home">
-      <div class="hero-content">
-        <p class="eyebrow">BCA STUDENT · AI ENTHUSIAST</p>
-
-        <h1>Hello, I'm <span>Tarun Sharma</span></h1>
-
-        <h2>Learning New Technology. Building My Future.</h2>
-
-        <p class="hero-text">
-          I am a BCA student interested in software development,
-          web technologies and Artificial Intelligence. I enjoy
-          learning new skills and turning ideas into practical projects.
-        </p>
-
-        <div class="hero-buttons">
-          <a href="#projects" class="btn btn-primary">
-            Explore My Work ↗
-          </a>
-
-          <a href="#contact" class="btn btn-secondary">
-            Get in Touch
-          </a>
-        </div>
-
-        <p class="availability">
-          <span class="status-dot"></span>
-          Open to learning and entry-level opportunities
-        </p>
-      </div>
-
-      <div class="hero-card">
-        <!-- Initials instead of placeholder YN -->
-         <img src="tarun image.png" alt="Tarun Sharma" class="profile-photo">
-
-        <p class="card-label">CURRENTLY LEARNING</p>
-        <h3>Web Development & AI</h3>
-
-        <p>Building a strong foundation, one project at a time.</p>
-
-        <div class="mini-tags">
-          <span>Java</span>
-          <span>HTML/CSS</span>
-          <span>Generative AI</span>
-        </div>
-      </div>
-    </section>
-
-    <!-- About -->
-    <section class="section container" id="about">
-      <p class="eyebrow">GET TO KNOW ME</p>
-      <h2 class="section-title">About <span>Me</span></h2>
-
-      <div class="about-card">
-        <p>
-          I am pursuing a Bachelor of Computer Applications (BCA)
-          at Dr. Bhimrao Ambedkar University, Agra, and developing
-          my knowledge of programming and web development.
-        </p>
-
-        <p>
-          Through Google and Coursera learning programmes, I have
-          explored prompt engineering, AI productivity and the
-          responsible use of AI tools. I am eager to gain practical
-          experience and continue growing as a technology learner.
-        </p>
-      </div>
-    </section>
-
-    <!-- Skills -->
-    <section class="section section-alt" id="skills">
-      <div class="container">
-        <p class="eyebrow">WHAT I AM LEARNING</p>
-        <h2 class="section-title">My <span>Skills</span></h2>
-
-        <div class="skill-grid">
-
-          <article class="skill-card">
-            <h3>Programming & Web</h3>
-            <div class="tags">
-              <span>Java (Basic)</span>
-              <span>HTML</span>
-              <span>CSS</span>
-              <span>DSA Fundamentals</span>
+            <div class="nav-links" id="navLinks">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#education">Education</a>
+                <a href="#certifications">Certificates</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact" class="nav-contact">Contact</a>
             </div>
-          </article>
+        </nav>
+    </header>
 
-          <article class="skill-card">
-            <h3>AI & Productivity</h3>
-            <div class="tags">
-              <span>Generative AI</span>
-              <span>Prompt Engineering</span>
-              <span>Prompt Design</span>
-              <span>Responsible AI</span>
+    <main>
+        <!-- Home -->
+        <section class="hero container" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">BCA STUDENT · AI LEARNER</p>
+                <h1>Hello, I'm <span>Tarun Sharma</span></h1>
+                <h2>Learning new things and building my skills.</h2>
+
+                <p class="hero-text">
+                    I am a BCA student interested in web development,
+                    programming and Artificial Intelligence. I like learning
+                    new things and trying them in small projects.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">My Projects ↗</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+
+                <p class="availability">
+                    <span class="status-dot"></span>
+                    Open to learning and entry-level opportunities
+                </p>
             </div>
-          </article>
 
-          <article class="skill-card">
-            <h3>Professional Skills</h3>
-            <div class="tags">
-              <span>Problem-Solving</span>
-              <span>Teamwork</span>
-              <span>Adaptability</span>
-              <span>Time Management</span>
+            <div class="hero-card">
+                <img src="tarun image.png" alt="Tarun Sharma" class="profile-photo">
+                <p class="card-label">I AM LEARNING</p>
+                <h3>Web Development and AI</h3>
+                <p>Learning step by step through practice and projects.</p>
+
+                <div class="mini-tags">
+                    <span>Java</span>
+                    <span>HTML/CSS</span>
+                    <span>Generative AI</span>
+                </div>
             </div>
-          </article>
+        </section>
 
-        </div>
-      </div>
-    </section>
+        <!-- About -->
+        <section class="section container" id="about">
+            <p class="eyebrow">ABOUT ME</p>
+            <h2 class="section-title">About <span>Me</span></h2>
 
-    <!-- Education -->
-    <section class="section container" id="education">
-      <p class="eyebrow">MY ACADEMIC JOURNEY</p>
-      <h2 class="section-title">My <span>Education</span></h2>
+            <div class="about-card">
+                <p>
+                    I am pursuing a Bachelor of Computer Applications (BCA)
+                    at Dr. Bhimrao Ambedkar University, Agra. I am learning
+                    programming and web development as part of my studies.
+                </p>
+                <p>
+                    I have also completed learning programmes from Google
+                    and Coursera related to AI and prompt writing. I want
+                    to improve my skills by practising and building projects.
+                </p>
+            </div>
+        </section>
 
-      <div class="timeline">
+        <!-- Skills -->
+        <section class="section section-alt" id="skills">
+            <div class="container">
+                <p class="eyebrow">MY SKILLS</p>
+                <h2 class="section-title">Things I Am <span>Learning</span></h2>
 
-        <article class="timeline-item">
-          <p class="timeline-year">2024 – 2027 (Expected)</p>
-          <h3>Bachelor of Computer Applications (BCA)</h3>
-          <p>Dr. Bhimrao Ambedkar University, Agra</p>
-          <p class="muted">Currently pursuing</p>
-        </article>
+                <div class="skill-grid">
+                    <article class="skill-card">
+                        <h3>Programming and Web</h3>
+                        <div class="tags">
+                            <span>Java (Basic)</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Basic DSA</span>
+                        </div>
+                    </article>
 
-        <article class="timeline-item">
-          <p class="timeline-year">2024</p>
-          <h3>Class XII</h3>
-          <p>UP Board</p>
-        </article>
+                    <article class="skill-card">
+                        <h3>AI Tools</h3>
+                        <div class="tags">
+                            <span>Generative AI</span>
+                            <span>Prompt Writing</span>
+                            <span>Prompt Design</span>
+                            <span>Responsible AI</span>
+                        </div>
+                    </article>
 
-        <article class="timeline-item">
-          <p class="timeline-year">2022</p>
-          <h3>Class X</h3>
-          <p>UP Board</p>
-        </article>
+                    <article class="skill-card">
+                        <h3>Other Skills</h3>
+                        <div class="tags">
+                            <span>Problem Solving</span>
+                            <span>Teamwork</span>
+                            <span>Adaptability</span>
+                            <span>Time Management</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
 
-      </div>
-    </section>
+        <!-- Education -->
+        <section class="section container" id="education">
+            <p class="eyebrow">MY STUDIES</p>
+            <h2 class="section-title">My <span>Education</span></h2>
 
-    <!-- Certifications -->
-    <section class="section section-alt" id="certifications">
-      <div class="container">
-        <p class="eyebrow">CONTINUOUS LEARNING</p>
-        <h2 class="section-title">My <span>Certifications</span></h2>
+            <div class="timeline">
+                <article class="timeline-item">
+                    <p class="timeline-year">2024 – 2027 (Expected)</p>
+                    <h3>Bachelor of Computer Applications (BCA)</h3>
+                    <p>Dr. Bhimrao Ambedkar University, Agra</p>
+                    <p class="muted">Currently studying</p>
+                </article>
 
-        <div class="cert-grid">
+                <article class="timeline-item">
+                    <p class="timeline-year">2024</p>
+                    <h3>Class XII</h3>
+                    <p>UP Board</p>
+                </article>
 
-          <article class="cert-card">
-            <p class="cert-type">GOOGLE</p>
-            <h3>Google AI Essentials</h3>
-            <p>AI fundamentals and practical AI productivity.</p>
-            <a
-              href="https://www.coursera.org/account/accomplishments/specialization/BBDXP25JRFI2"
-              class="text-link certificate-link"
-              target="_blank"
-              rel="noopener noreferrer">
-              View Credential ↗
-            </a>
-          </article>
+                <article class="timeline-item">
+                    <p class="timeline-year">2022</p>
+                    <h3>Class X</h3>
+                    <p>UP Board</p>
+                </article>
+            </div>
+        </section>
 
-          <article class="cert-card">
-            <p class="cert-type">GOOGLE</p>
-            <h3>Google Prompting Essentials</h3>
-            <p>Prompt design and effective use of AI tools.</p>
-            <a
-              href="https://www.coursera.org/account/accomplishments/specialization/QYIR4757WL88"
-              class="text-link certificate-link"
-              target="_blank"
-              rel="noopener noreferrer">
-              View Credential ↗
-            </a>
-          </article>
+        <!-- Certificates -->
+        <section class="section section-alt" id="certifications">
+            <div class="container">
+                <p class="eyebrow">COURSES I HAVE COMPLETED</p>
+                <h2 class="section-title">My <span>Certificates</span></h2>
 
-          <article class="cert-card">
-            <p class="cert-type">GOOGLE</p>
-            <h3>Introduction to Generative AI</h3>
-            <p>Foundational concepts of Generative AI.</p>
-            <a
-              href="https://www.coursera.org/account/accomplishments/records/LUB1EUCZ9X7C"
-              class="text-link certificate-link"
-              target="_blank"
-              rel="noopener noreferrer">
-              View Credential ↗
-            </a>
-          </article>
+                <div class="cert-grid">
+                    <article class="cert-card">
+                        <p class="cert-type">GOOGLE</p>
+                        <h3>Google AI Essentials</h3>
+                        <p>Learning the basics of AI and how to use AI tools.</p>
+                        <a href="https://www.coursera.org/account/accomplishments/specialization/BBDXP25JRFI2"
+                           class="text-link certificate-link" target="_blank"
+                           rel="noopener noreferrer">View Certificate ↗</a>
+                    </article>
 
-          <article class="cert-card">
-            <p class="cert-type">GOOGLE</p>
-            <h3>Generative AI Leader</h3>
-            <p>Learning about Generative AI and its applications.</p>
-            <a
-              href="https://www.coursera.org/account/accomplishments/specialization/BBDXP25JRFI2"
-              class="text-link certificate-link"
-              target="_blank"
-              rel="noopener noreferrer">
-              View Credential ↗
-            </a>
-          </article>
+                    <article class="cert-card">
+                        <p class="cert-type">GOOGLE</p>
+                        <h3>Google Prompting Essentials</h3>
+                        <p>Learning how to write useful prompts for AI tools.</p>
+                        <a href="https://www.coursera.org/account/accomplishments/specialization/QYIR4757WL88"
+                           class="text-link certificate-link" target="_blank"
+                           rel="noopener noreferrer">View Certificate ↗</a>
+                    </article>
 
-        </div>
+                    <article class="cert-card">
+                        <p class="cert-type">GOOGLE</p>
+                        <h3>Introduction to Generative AI</h3>
+                        <p>Learning the basic ideas behind Generative AI.</p>
+                        <a href="https://www.coursera.org/account/accomplishments/records/LUB1EUCZ9X7C"
+                           class="text-link certificate-link" target="_blank"
+                           rel="noopener noreferrer">View Certificate ↗</a>
+                    </article>
 
-        <!-- Credly profile -->
-        <div class="credentials">
-          <h3>Digital Badges</h3>
-          <p>Explore my digital badges on Credly.</p>
-          <a
-            href="https://www.credly.com/users/tarun-sharma.efe731a4"
-            class="text-link certificate-link"
-            target="_blank"
-            rel="noopener noreferrer">
-            View My Credly Profile ↗
-          </a>
-        </div>
+                    <article class="cert-card">
+                        <p class="cert-type">GOOGLE</p>
+                        <h3>Generative AI Leader</h3>
+                        <p>Learning about Generative AI and its uses.</p>
+                        <a href="https://www.coursera.org/account/accomplishments/specialization/BBDXP25JRFI2"
+                           class="text-link certificate-link" target="_blank"
+                           rel="noopener noreferrer">View Certificate ↗</a>
+                    </article>
+                </div>
 
-      </div>
-    </section>
+                <div class="credentials">
+                    <h3>Digital Badges</h3>
+                    <p>My digital badges are available on Credly.</p>
+                    <a href="https://www.credly.com/users/tarun-sharma.efe731a4"
+                       class="text-link certificate-link" target="_blank"
+                       rel="noopener noreferrer">View Credly Profile ↗</a>
+                </div>
+            </div>
+        </section>
 
-    <!-- Projects -->
-    <section class="section container" id="projects">
-      <p class="eyebrow">WHAT I AM BUILDING</p>
-      <h2 class="section-title">My <span>Projects</span></h2>
+        <!-- Projects -->
+        <section class="section container" id="projects">
+            <p class="eyebrow">MY WORK</p>
+            <h2 class="section-title">My <span>Projects</span></h2>
 
-      <div class="project-grid">
+            <div class="project-grid">
+                <article class="project-card">
+                    <div class="project-number">01 / WEB DEVELOPMENT</div>
+                    <h3>Personal Portfolio Website</h3>
+                    <p>
+                        A website where I can show my education, skills,
+                        certificates and projects.
+                    </p>
+                    <div class="tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <p class="project-status">In progress</p>
+                </article>
 
-        <article class="project-card">
-          <div class="project-number">01 / WEB DEVELOPMENT</div>
-          <h3>Personal Portfolio Website</h3>
+                <article class="project-card">
+                    <div class="project-number">02 / AI</div>
+                    <h3>AI Study Assistant</h3>
+                    <p>
+                        An idea for a tool that could help organise tasks,
+                        make study plans and draft content using AI.
+                    </p>
+                    <div class="tags">
+                        <span>JavaScript</span>
+                        <span>AI Basics</span>
+                    </div>
+                    <p class="project-status">Planned</p>
+                </article>
+            </div>
+        </section>
 
-          <p>
-            A responsive personal portfolio showcasing my education,
-            technical skills, certifications and learning journey.
-          </p>
+        <!-- Contact -->
+        <section class="section contact-section" id="contact">
+            <div class="container contact-inner">
+                <p class="eyebrow">CONTACT</p>
+                <h2 class="section-title">Let's <span>Connect</span></h2>
+                <p>
+                    I am interested in learning, working with others
+                    and exploring new opportunities.
+                </p>
 
-          <div class="tags">
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-          </div>
+                <div class="hero-buttons">
+                    <a class="btn btn-primary"
+                       href="mailto:tarunsahariya9759@gmail.com">Email Me ↗</a>
+                    <a class="btn btn-secondary"
+                       href="https://www.linkedin.com/in/tarun-sharma-191603418/"
+                       target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+                </div>
+            </div>
+        </section>
+    </main>
 
-          <p class="project-status">In progress</p>
-        </article>
-
-        <article class="project-card">
-          <div class="project-number">02 / ARTIFICIAL INTELLIGENCE</div>
-          <h3>AI Productivity Assistant</h3>
-
-          <p>
-            A planned tool for organising tasks, creating study
-            plans and drafting content with AI assistance.
-          </p>
-
-          <div class="tags">
-            <span>JavaScript</span>
-            <span>AI Concepts</span>
-          </div>
-
-          <p class="project-status">Planned</p>
-        </article>
-
-      </div>
-    </section>
-
-    <!-- Contact -->
-    <section class="section contact-section" id="contact">
-      <div class="container contact-inner">
-        <p class="eyebrow">LET'S CONNECT</p>
-
-        <h2 class="section-title">
-          Have an opportunity in <span>mind?</span>
-        </h2>
-
-        <p>
-          I am always interested in learning, collaborating
-          and exploring new opportunities.
-        </p>
-
-        <div class="hero-buttons">
-          <a
-            class="btn btn-primary"
-            href="mailto:tarunsahariya9759@gmail.com">
-            Email Me ↗
-          </a>
-
-          <a
-            class="btn btn-secondary"
-            href="https://www.linkedin.com/in/tarun-sharma-191603418/"
-            target="_blank"
-            rel="noopener noreferrer">
-            LinkedIn Profile ↗
-          </a>
-        </div>
-      </div>
-    </section>
-
-  </main>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <p>© <span id="year"></span> Tarun Sharma · Personal Portfolio</p>
-    <a href="#home">Back to top ↑</a>
-  </footer>
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© <span id="year"></span> Tarun Sharma | Portfolio</p>
+        <a href="#home">Back to top ↑</a>
+    </footer>
 
 </body>
 </html>
